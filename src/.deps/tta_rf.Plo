@@ -1,0 +1,101 @@
+tta_rf.lo: tta_rf.c ../config.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdio.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/features.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/glibc-types.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/cdefs.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/alltypes.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdlib.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/alloca.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/errno.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/errno.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/fcntl.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/fcntl.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/string.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/strings.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/unistd.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/posix.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/assert.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/ioctl.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/ioctl.h \
+ tta_private.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdint.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/stdint.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/time.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/select.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/types.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/endian.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/sysmacros.h \
+ ../config.h tta.h tta_version.h tta_rf.h tta_tcp.h tta_rs485.h \
+ tta_rf_private.h dbg.h cc1120.h
+
+../config.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdio.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/features.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/glibc-types.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/cdefs.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/alltypes.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdlib.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/alloca.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/errno.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/errno.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/fcntl.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/fcntl.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/string.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/strings.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/unistd.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/posix.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/assert.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/ioctl.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/ioctl.h:
+
+tta_private.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdint.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/stdint.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/time.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/select.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/types.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/endian.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/sysmacros.h:
+
+../config.h:
+
+tta.h:
+
+tta_version.h:
+
+tta_rf.h:
+
+tta_tcp.h:
+
+tta_rs485.h:
+
+tta_rf_private.h:
+
+dbg.h:
+
+cc1120.h:

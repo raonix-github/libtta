@@ -1,0 +1,10 @@
+prefix=/home/gomma/projects/openwrt/dl/libtta/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: tta
+Description: TTA library
+Version: 1.0.0
+Libs: -L${libdir} -ltta
+Cflags: -I${includedir}/tta

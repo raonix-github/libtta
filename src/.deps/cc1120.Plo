@@ -1,0 +1,54 @@
+cc1120.lo: cc1120.c ../config.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdlib.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/features.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/glibc-types.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/cdefs.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/alltypes.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/alloca.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdio.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/string.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/strings.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/ioctl.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/ioctl.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/fcntl.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/fcntl.h \
+ cc1120.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdint.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/stdint.h \
+ dbg.h
+
+../config.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdlib.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/features.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/glibc-types.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/cdefs.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/alltypes.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/alloca.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdio.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/string.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/strings.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/ioctl.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/ioctl.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/fcntl.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/fcntl.h:
+
+cc1120.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdint.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/stdint.h:
+
+dbg.h:

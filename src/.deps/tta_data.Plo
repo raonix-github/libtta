@@ -1,0 +1,57 @@
+tta_data.lo: tta_data.c ../config.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdlib.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/features.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/glibc-types.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/cdefs.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/alltypes.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/alloca.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdint.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/stdint.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/string.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/strings.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/assert.h \
+ tta.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/time.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/select.h \
+ tta_version.h tta_rf.h tta_tcp.h tta_rs485.h \
+ /home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/byteswap.h
+
+../config.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdlib.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/features.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/glibc-types.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/cdefs.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/alltypes.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/alloca.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/stdint.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/bits/stdint.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/string.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/strings.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/assert.h:
+
+tta.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/time.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/sys/select.h:
+
+tta_version.h:
+
+tta_rf.h:
+
+tta_tcp.h:
+
+tta_rs485.h:
+
+/home/gomma/projects/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_musl-1.1.11/include/byteswap.h:

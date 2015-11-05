@@ -1,0 +1,55 @@
+make --no-print-directory all-recursive
+Making all in src
+  CC     tta.lo
+  CC     tta_data.lo
+tta_data.c:45: warning: no previous prototype for 'tta_set_bits_from_byte'
+tta_data.c:57: warning: no previous prototype for 'tta_set_bits_from_bytes'
+tta_data.c:73: warning: no previous prototype for 'tta_get_byte_from_bits'
+tta_data.c:92: warning: no previous prototype for 'tta_get_float'
+tta_data.c:104: warning: no previous prototype for 'tta_get_float_dcba'
+tta_data.c:116: warning: no previous prototype for 'tta_set_float'
+tta_data.c:126: warning: no previous prototype for 'tta_set_float_dcba'
+  CC     tta_rf.lo
+tta_rf.c: In function `_tta_rf_close':
+tta_rf.c:567: warning: unused variable `ctx_rf'
+tta_rf.c: In function `tta_rf_set_ch':
+tta_rf.c:770: warning: implicit declaration of function `cc1120_set_ch'
+tta_rf.c:770: warning: nested extern declaration of `cc1120_set_ch'
+tta_rf.c: In function `tta_rf_set_power':
+tta_rf.c:782: warning: implicit declaration of function `cc1120_set_power'
+tta_rf.c:782: warning: nested extern declaration of `cc1120_set_power'
+tta_rf.c: In function `tta_rf_get_rssi':
+tta_rf.c:810: warning: implicit declaration of function `cc1120_get_rssi'
+tta_rf.c:810: warning: nested extern declaration of `cc1120_get_rssi'
+tta_rf.c: At top level:
+tta_rf.c:108: warning: 'change_rf_mode' defined but not used
+tta_rf.c:144: warning: '_tta_rf_ioctl_rts' defined but not used
+  CC     tta_rs485.lo
+  CC     tta_tcp.lo
+In file included from tta_private.h:15,
+                 from tta_tcp.c:42:
+tta.h:172: warning: declaration of 'socket' shadows a global declaration
+/opt/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/../../../../mipsel-linux-uclibc/sys-include/sys/socket.h:100: warning: shadowed declaration is here
+In file included from tta.h:195,
+                 from tta_private.h:15,
+                 from tta_tcp.c:42:
+tta_tcp.h:23: warning: declaration of 'socket' shadows a global declaration
+/opt/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/../../../../mipsel-linux-uclibc/sys-include/sys/socket.h:100: warning: shadowed declaration is here
+  CCLD   libtta.la
+Making all in doc
+make[2]: Nothing to be done for `all'.
+Making all in tests
+make  all-am
+  CC     unit_test_master.o
+  CCLD   unit_test_master
+  CC     unit_test_slave.o
+  CCLD   unit_test_slave
+  CC     unit_test_rf.o
+unit_test_rf.c:14: warning: no previous prototype for 'tta_thermostat_get_chars'
+unit_test_rf.c:38: warning: no previous prototype for 'tta_thermostat_get_state'
+unit_test_rf.c: In function `main':
+unit_test_rf.c:65: warning: unused variable `rc'
+unit_test_rf.c:104: warning: label `close' defined but not used
+  CCLD   unit_test_rf
+  CC     version.o
+  CCLD   version
